@@ -11,9 +11,19 @@
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CameronMontgomery/jcmontgomery-portfolio.git"
+  },
+  "keywords": [
+    "Portfolio"
+  ],
   "author": "JCMontgomery",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CameronMontgomery/jcmontgomery-portfolio/issues"
+  },
+  "homepage": "https://github.com/CameronMontgomery/jcmontgomery-portfolio#readme",
   "devDependencies": {
     "@vitejs/plugin-react": "^3.0.0",
     "autoprefixer": "^10.4.13",
