@@ -1,8 +1,8 @@
 {
-  "name": "react-vite-setup",
+  "name": "JCMontgomery Portfolio  www.jcmontgomery.com",
   "version": "1.0.0",
-  "description": "Provides all the necessary setup files for a React and Vite application. Includes un-opinionated ESLint configuration that supports React Hooks and Prettier",
-  "main": "index.js",
+  "description": "Personal Dev. Portfolio of Cameron Montgomery",
+  "main": "src/index.html",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -12,7 +12,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "JCMontgomery (Tribalash)",
+  "author": "JCMontgomery",
   "license": "ISC",
   "devDependencies": {
     "@vitejs/plugin-react": "^3.0.0",
