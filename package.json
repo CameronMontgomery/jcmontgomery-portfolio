@@ -16,7 +16,8 @@
     "url": "git+https://github.com/CameronMontgomery/jcmontgomery-portfolio.git"
   },
   "keywords": [
-    "Portfolio"
+    "Portfolio",
+    "JCMontgomery"
   ],
   "author": "JCMontgomery",
   "license": "ISC",
@@ -41,6 +42,7 @@
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.6.1"
   }
 }
