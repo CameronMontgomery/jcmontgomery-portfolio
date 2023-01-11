@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const NavBar = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
@@ -11,7 +12,7 @@ const NavBar = () => {
           <button
             className={`group z-50 mr-8 space-y-1.5 ${
               isNavOpen
-                ? ` rounded-3xl bg-gray-200 px-1 pb-2 pt-4 drop-shadow-md`
+                ? ` rounded-3xl bg-gray-300 px-1 pb-2 pt-4 drop-shadow-md`
                 : ''
             }`}
             onClick={() => setIsNavOpen(!isNavOpen)}
@@ -33,9 +34,9 @@ const NavBar = () => {
             ></span>
           </button>
           <div className={isNavOpen ? 'showNavMenu' : 'hideNavMenu'}>
-            <ul className='flex flex-col items-center border border-green-900'>
+            <ul className=' flex flex-col items-center border border-green-900 text-white'>
               <li>
-                <a href={'about'}>About</a>
+                <Link to={'about'}>About</Link>
               </li>
               <li></li>
               <li>Test</li>
