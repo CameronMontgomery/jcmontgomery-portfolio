@@ -31,13 +31,19 @@ const Error = () => {
           {error.statusText || error.message}
         </i>
       </p>
+      <Link
+        className='mb-8 rounded-md border bg-blue-500 p-1.5 text-white drop-shadow-md hover:bg-blue-600'
+        to='/'
+      >
+        Return Home
+      </Link>
       <button className='mb-2' onClick={() => setShowDetails(!showDetails)}>
-        <sub className='text-red-600'>Details</sub>
+        <sub className='text-red-600'>View Details</sub>
       </button>
       <div
         className={`${
           showDetails ? 'flex' : 'hidden'
-        } mx-auto max-w-xl flex-col justify-around overflow-auto rounded-xl border bg-red-200 p-2 drop-shadow-lg sm:p-4`}
+        } mx-auto max-w-xl flex-col justify-around overflow-auto rounded-xl border bg-red-200 p-2 text-sm drop-shadow-lg sm:p-4 sm:text-base`}
       >
         <p className='my-1'>
           <span className='mr-1 font-semibold'>Status:</span>
