@@ -3,7 +3,33 @@
 @tailwind utilities;
 
 @layer base {
-  * {
+  /* * {
     @apply border border-dotted border-green-400;
+  } */
+}
+
+@layer components {
+  .font-gruppo {
+    font-family: 'Gruppo', 'monospace';
+  }
+}
+
+@layer utilities {
+  .showNavMenu {
+    @apply absolute top-0 left-0 z-10 flex h-screen w-full items-center justify-center bg-gray-200 opacity-80;
+  }
+
+  .translate-to-x-top {
+    transform: translate(0px, 0px) rotate(45deg);
+    @apply w-8 bg-red-500;
+  }
+
+  .translate-to-x-bottom {
+    transform: translate(0px, -10px) rotate(-45deg);
+    @apply w-8 bg-red-500;
+  }
+
+  .hideNavMenu {
+    @apply hidden;
   }
 }
