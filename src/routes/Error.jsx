@@ -3,9 +3,9 @@ import { useRouteError, Link } from 'react-router-dom';
 import errorIcon from '../assets/red-error.svg';
 
 const getErrorStack = (stackString) => {
-  const stackArray = stackString.split('\n');
-  if (stackArray[stackArray.length - 1].length === 0) {
-    console.log('test', stackArray.pop());
+  const stackArray = stackString?.split('\n');
+  if (stackArray[stackArray?.length - 1].length === 0) {
+    console.log('test', stackArray?.pop());
   }
   return stackArray;
 };
