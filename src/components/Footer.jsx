@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
-import linkedIn from '../assets/linkedin-blue-circle.svg';
-import github from '../assets/github-blk.svg';
+import SocialBadges from './SocialBadges';
 
 const Footer = () => {
   return (
@@ -29,22 +28,7 @@ const Footer = () => {
           </Link>
         </li>
         <li>
-          <div className='flex items-center justify-center border'>
-            <Link href='/' className='mr-1'>
-              <img
-                className='max-w-[1.75rem] transition duration-300 ease-in-out hover:scale-110'
-                src={linkedIn}
-                alt='LinkedIn Logo'
-              />
-            </Link>
-            <Link href='/'>
-              <img
-                className='max-w-[1.75rem] transition duration-300 ease-in-out hover:scale-110'
-                src={github}
-                alt='GitHub Logo'
-              />
-            </Link>
-          </div>
+          <SocialBadges />
         </li>
       </ul>
     </footer>
