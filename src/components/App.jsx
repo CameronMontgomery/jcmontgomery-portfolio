@@ -6,9 +6,13 @@ import Footer from '../components/Footer';
 const App = () => {
   const [isDarkMode, setIsDarkMode] = useState(false);
 
+  const handleDarkModeToggle = () => {
+    setIsDarkMode(!isDarkMode);
+  };
+
   return (
     <div className={`relative min-h-screen ${isDarkMode ? 'dark' : ''}`}>
-      <NavBar />
+      <NavBar darkModeHandler={handleDarkModeToggle} isDarkMode={isDarkMode} />
       <div className='pb-[41.8em] md:pb-11'>
         <Outlet />
       </div>
