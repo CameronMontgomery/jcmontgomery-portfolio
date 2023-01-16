@@ -1,7 +1,10 @@
+import Hero from '../components/Hero';
+
 const Home = () => {
   return (
     <header className=''>
-      <p>This is the Home page header</p>
+      <Hero />
+      <p>This is the Home page</p>
     </header>
   );
 };
