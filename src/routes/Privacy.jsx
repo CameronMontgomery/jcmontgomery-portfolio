@@ -1,4 +1,5 @@
 /* eslint-disable no-irregular-whitespace */
+/* Remove ESLint errors for imported HTML from Termly */
 
 const Privacy = () => {
   let HTML = `<style>
@@ -47,7 +48,7 @@ const Privacy = () => {
 
   return (
     <div
-      className='mx-auto px-2 pb-28 pt-10 sm:max-w-2xl sm:pb-11 sm:pt-11'
+      className='mx-auto px-2 pb-28 pt-10 sm:max-w-2xl sm:pb-11 sm:pt-11 lg:max-w-4xl'
       dangerouslySetInnerHTML={{ __html: HTML }}
     ></div>
   );
