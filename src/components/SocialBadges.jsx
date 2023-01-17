@@ -4,7 +4,7 @@ import discord from '../assets/discord-purple.svg';
 
 const SocialBadges = () => {
   return (
-    <div className='flex items-center justify-center border'>
+    <div className='flex items-center justify-center'>
       {/* Using rel='noopener' */
       /* eslint-disable-next-line react/jsx-no-target-blank */}
       <a
