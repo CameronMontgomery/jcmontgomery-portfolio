@@ -5,12 +5,12 @@ import background from '../assets/computer-black-code.jpg';
 const Hero = () => {
   return (
     <div
-      className='font-gruppo flex h-[450px] flex-wrap bg-cover bg-center text-white'
+      className='font-gruppo flex h-[500px] flex-wrap bg-cover bg-center font-semibold text-white'
       style={{
         'background-image': `url(${background})`,
       }}
     >
-      <div className='flex w-full flex-col justify-center pl-14 text-xl md:basis-1/2 md:pl-10 md:text-2xl lg:pl-20 lg:text-3xl'>
+      <div className='flex w-full flex-col justify-center pl-14 text-xl md:basis-1/2 md:pl-10 md:text-2xl lg:pl-32 lg:text-3xl'>
         <h2>Hi, I&#39;m Cameron</h2>
         <Typed
           className=''
