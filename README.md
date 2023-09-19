@@ -1,9 +1,13 @@
 
 <div align="center">
+
+<div>
  
 ```diff
-    !!! Development Temporary Paused to Facilitate Work on Other Projects !!!
+!!! Development Temporary Paused to Facilitate Work on Other Projects !!!
 ```
+
+</div>
  
 # JCMontgomery Portfolio
 ### www.jcmontgomery.com
