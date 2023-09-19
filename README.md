@@ -1,6 +1,10 @@
 
 <div align="center">
-
+ 
+```diff
+!!! Development Temporary Paused to Facilitate Work on Other Projects !!!
+```
+ 
 # JCMontgomery Portfolio
 ### www.jcmontgomery.com
  
